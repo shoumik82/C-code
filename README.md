@@ -1,6 +1,6 @@
 # C-code
 
-The three files are programs written in C++.
+The files are programs written in C++.
 
 The Monte Carlo file is a simulation on an unit circle that allows to estinmate the value of pi.
 
