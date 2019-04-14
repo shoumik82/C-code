@@ -33,12 +33,14 @@ private:
     // variable and array declarations
     int coefficient;
     int exponent;
-    int poly1[13];  // maybe in main cpp file (coefficients in column 1, exponents in column 2)
+    int poly1[13]; 
     int poly2[13];
     int right_term[13];
 
 } // end class Polynomial
 
+
+// Polynomial.cpp
 
 #include "stdafx.h"
 #include <iostream>
@@ -127,8 +129,8 @@ ostream& operator<<(ostream& output, const Polynomial & poly) {
     return output;
 }
 
-// Polynomial_Main.cpp
 
+// Polynomial_Main.cpp
 
 #include "stdafx.h"
 #include <iostream>
